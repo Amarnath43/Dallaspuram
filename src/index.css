@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+
+:root {
+  --ring: 255 196 66; /* amber-ish */
+}
+:focus-visible {
+  outline: 2px solid rgb(var(--ring));
+  outline-offset: 2px;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #111827;
+  color: #d1d5db;
+}
+
+.font-display { font-family: 'Playfair Display', serif; }
+
+.hero-bg {
+  background-image:
+    linear-gradient(rgba(17, 24, 39, 0.8), rgba(17, 24, 39, 0.8)),
+    url('https://images.unsplash.com/photo-1589302168068-964664d93dc0?q=80&w=1974&auto=format&fit=crop');
+  background-size: cover;
+  background-position: center;
+}
+
+.nav-link { position: relative; transition: color 0.3s ease; }
+.nav-link::after {
+  content: '';
+  position: absolute;
+  width: 0; height: 2px;
+  bottom: -4px; left: 50%;
+  transform: translateX(-50%);
+  background-color: #f59e0b;
+  transition: width 0.3s ease;
+}
+.nav-link:hover::after,
+.nav-link.active::after { width: 100%; }
