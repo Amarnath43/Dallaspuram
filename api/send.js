@@ -19,7 +19,7 @@ module.exports = async function handler(req, res) {
     const resend = new Resend(process.env.RESEND_API_KEY);
 
     const { id } = await resend.emails.send({
-      from: "Website Contact <no-reply@yourdomain.com>", // use your verified domain
+      from: "Acme <onboarding@resend.dev>",
       to: "amaryt6m@gmail.com", // where you want to receive messages
       subject: subject || "New Contact Form Message",
       html: `
