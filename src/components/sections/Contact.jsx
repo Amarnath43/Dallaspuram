@@ -4,7 +4,7 @@ import AnimateOnScroll from '../ui/AnimateOnScroll';
 import ContactForm from '../ui/ContactForm';
 
 const Contact = ({ sectionRef }) => (
-    <section id="contact" ref={sectionRef} className="py-24 bg-gray-900 overflow-hidden">
+    <section id="contact" ref={sectionRef} className="py-24 bg-gray-900 overflow-hidden scroll-mt-30">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
             <AnimateOnScroll className="text-center mb-16">
                 <h2 className="font-display text-4xl md:text-5xl font-bold text-white">Get In <span className="text-amber-500">Touch</span></h2>
@@ -14,20 +14,20 @@ const Contact = ({ sectionRef }) => (
                 <AnimateOnScroll>
                     <h3 className="text-2xl font-bold text-white mb-4">Contact Details</h3>
                     <div className="space-y-4 text-lg">
-                        <p className="flex items-center"><MapPin className="w-6 h-6 mr-3 text-amber-500" />Serving the Dallas-Fort Worth Area</p>
-                        <p className="flex items-center"><Phone className="w-6 h-6 mr-3 text-amber-500" />+1 (940) 123-4567</p>
-                        <p className="flex items-center"><Mail className="w-6 h-6 mr-3 text-amber-500" />contact@dallaspuram.com</p>
+                        <p className="flex items-center"><MapPin className="w-6 h-6 mr-3 text-amber-500" />13927 Rockin Riley Rd, Aubrey, TX 76227</p>
+                        <p className="flex items-center"><Phone className="w-6 h-6 mr-3 text-amber-500" />+1 (234) 999-6669</p>
+                        <p className="flex items-center"><Mail className="w-6 h-6 mr-3 text-amber-500" />contact@dallaspuram-usa.com</p>
                     </div>
-                     <div className="mt-8 rounded-lg overflow-hidden">
+                    <div className="mt-8 rounded-lg overflow-hidden">
                         <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!m12!1m3!1d429177.3702118361!2d-97.16333331086257!3d32.82092957134835!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864c19f77b45974b%3A0xb9ec9ba4f647678f!2sDallas%2C%2T!5e0!3m2!1sen!2sus!4v1694123456789!5m2!1sen!2sus"
-                            width="100%"
-                            height="300"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3335.755964347817!2d-96.89544412451829!3d33.27288057346043!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864c470015157b1b%3A0xbfdb7e4dbb2ddd12!2sSri%20Sai%20Sannidhi%20temple!5e0!3m2!1sen!2sin!4v1758997316672!5m2!1sen!2sin"
+                            width="600"
+                            height="450"
                             style={{ border: 0 }}
                             allowFullScreen=""
                             loading="lazy"
                             referrerPolicy="no-referrer-when-downgrade"
-                            title="Dallas Area Map"
+                            title="Google Map of Dallaspuram Location"
                         ></iframe>
                     </div>
                 </AnimateOnScroll>

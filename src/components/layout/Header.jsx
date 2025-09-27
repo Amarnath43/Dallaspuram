@@ -11,18 +11,21 @@ const navLinks = [
 ];
 
 const Header = ({ isMenuOpen, setIsMenuOpen, activeSection, isScrolled }) => {
-    const headerClasses = `bg-gray-900/80 backdrop-blur-md fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? 'shadow-lg' : ''}`;
+    const headerClasses = `bg-gray-900/80 backdrop-blur-md sticky top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? 'shadow-lg' : ''}`;
 
     return (
         <>
             <header id="header" className={headerClasses}>
                 <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-                    <div className="flex items-center justify-between h-20">
-                        <a href="#home" className="text-3xl font-display font-bold text-white">Dallaspuram</a>
+                    <div className="flex items-center justify-between h-30">
+                        <a href="#home" aria-label="Dallaspuram Home">
+                            {/* Replaced the SVG component with an img tag for the logo */}
+                            <img src='d.png' alt="Dallaspuram Logo" className="h-30 w-auto" />
+                        </a>
                         
                         <nav className="hidden md:flex items-center space-x-8">
                             {navLinks.map(link => (
-                                <a key={link.href} href={link.href} className={`nav-link text-lg font-medium hover:text-amber-500 ${activeSection === link.href.substring(1) ? 'active' : ''}`}>{link.label}</a>
+                                <a key={link.href} href={link.href} className={`nav-link text-lg font-medium hover:text-amber-500 transition-colors duration-300 ${activeSection === link.href.substring(1) ? 'text-amber-500' : 'text-white'}`}>{link.label}</a>
                             ))}
                         </nav>
 
@@ -54,3 +57,4 @@ const Header = ({ isMenuOpen, setIsMenuOpen, activeSection, isScrolled }) => {
 };
 
 export default Header;
+

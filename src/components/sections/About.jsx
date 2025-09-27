@@ -3,14 +3,14 @@ import AnimateOnScroll from '../ui/AnimateOnScroll';
 import LazyImage from '../ui/LazyImage';
 
 const About = ({ sectionRef }) => (
-    <section id="about" ref={sectionRef} className="py-24 bg-gray-900 overflow-hidden">
+    <section id="about" ref={sectionRef} className="py-24 bg-gray-900 overflow-hidden scroll-mt-30">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid md:grid-cols-2 gap-12 items-center">
                  <AnimateOnScroll>
                     <LazyImage 
-                        src="https://placehold.co/600x700/333333/FFFFFF?text=Dallaspuram+Food+Truck" 
+                        src="d.png" 
                         alt="Dallaspuram Food Truck"
-                        wrapperClassName="aspect-[6/7]"
+                        wrapperClassName="aspect-[5/6]"
                     />
                 </AnimateOnScroll>
                 <AnimateOnScroll>
