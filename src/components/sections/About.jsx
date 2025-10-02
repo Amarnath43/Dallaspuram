@@ -23,8 +23,8 @@ const About = ({ sectionRef }) => (
                 </AnimateOnScroll>
                 <AnimateOnScroll>
                     <h2 className="font-display text-4xl md:text-5xl font-bold text-white mb-4">Welcome to <span className="text-amber-500">Dallaspuram</span></h2>
-                    <p className="text-lg mb-6">Dallaspuram is more than just a food truck; it's a culinary experience on wheels. We bring the vibrant street food culture of India to the heart of Dallas. Our menu is a celebration of flavors, featuring a wide array of Tiffins, Dosas, Bombay Chaat, and our special Truck Curries.</p>
-                    <p className="text-lg">Our mission is to serve you the most authentic dishes, all prepared fresh with traditional recipes and the finest spices. Find us and taste the tradition!</p>
+                    <p className="text-lg mb-6">At Dallaspuram, we believe food is a celebration. Our name itself is a fusion—'Dallas' for the spirit of our home and 'puram,' a word for town or village, representing the community and tradition at the heart of Indian culture. Nestled in Aubrey, our one-of-a-kind outdoor setting invites you to dine under the open sky, surrounded by the sizzling sounds and aromatic spices of authentic desi street food. Every dish on our menu is a tribute to the bustling food stalls of India, crafted with passion and the freshest ingredients. Dallaspuram is more than a restaurant; it's a gathering place for friends and family to share stories, create memories, and savor an unforgettable culinary journey.</p>
+                    <p className="text-lg">Join us at Dallaspuram, where every meal is a vibrant celebration of flavor, culture, and community. We can't wait to welcome you!</p>
                 </AnimateOnScroll>
             </div>
         </div>
