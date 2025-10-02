@@ -68,7 +68,7 @@ export default function Hero({ sectionRef }) {
             `}
                         sizes="(max-width: 640px) 180px, 300px"
                         alt="Dallaspuram Logo"
-                        className="w-28 sm:w-36 md:w-48 h-auto"
+                        className="w-45 sm:w-50 md:w-60 h-auto"
                         decoding="async"
                         fetchPriority="high"
                     />
