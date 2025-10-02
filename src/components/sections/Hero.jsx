@@ -50,7 +50,7 @@ export default function Hero({ sectionRef }) {
             className="relative min-h-screen w-full flex flex-col items-center justify-center bg-cover bg-center md:bg-fixed pt-20 sm:pt-24 pb-10 scroll-mt-24"
             style={{
                 backgroundImage:
-                    "url('https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?q=80&w=1981&auto=format&fit=crop&ixlib=rb-4.0.3')",
+                    "url('https://images.unsplash.com/photo-1589302168068-964664d93dc0?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3)",
             }}
         >
             {/* Background overlay */}
