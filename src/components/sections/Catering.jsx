@@ -66,7 +66,7 @@ const Catering = React.forwardRef((props, ref) => {
     };
 
     return (
-        <section ref={ref} id="catering" className="py-24 bg-stone-900 overflow-hidden scroll-mt-30">
+        <section ref={ref} id="catering" className="py-14 bg-stone-900 overflow-hidden scroll-mt-30">
             <div className="container mx-auto px-4 sm:px-6 lg:px-8">
                 <AnimateOnScroll>
                     <div className="grid lg:grid-cols-2 gap-12 items-center">

@@ -17,7 +17,7 @@ const galleryImages = [
 const SIZES = '(max-width: 768px) 50vw, 25vw';
 
 const Gallery = ({ sectionRef }) => (
-  <section id="gallery" ref={sectionRef} className="py-24 bg-gray-800 overflow-hidden scroll-mt-30">
+  <section id="gallery" ref={sectionRef} className="py-14 bg-gray-800 overflow-hidden scroll-mt-30">
     <div className="container mx-auto px-4 sm:px-6 lg:px-8">
       <AnimateOnScroll className="text-center mb-16">
         <h2 className="font-display text-4xl md:text-5xl font-bold text-white">

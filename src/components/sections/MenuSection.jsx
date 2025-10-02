@@ -3,7 +3,7 @@ import AnimateOnScroll from '../ui/AnimateOnScroll';
 import LazyImage from '../ui/LazyImage';
 
 const MenuSection = ({ sectionRef }) => (
-    <section id="menu" ref={sectionRef} className="py-24 bg-gray-800 overflow-hidden scroll-mt-30">
+    <section id="menu" ref={sectionRef} className="py-14 bg-gray-800 overflow-hidden scroll-mt-30">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
             <AnimateOnScroll className="text-center mb-16">
                 <h2 className="font-display text-4xl md:text-5xl font-bold text-white">Our Food Truck <span className="text-amber-500">Menu</span></h2>

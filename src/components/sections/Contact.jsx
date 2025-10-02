@@ -4,7 +4,7 @@ import AnimateOnScroll from '../ui/AnimateOnScroll';
 import ContactForm from '../ui/ContactForm';
 
 const Contact = ({ sectionRef }) => (
-    <section id="contact" ref={sectionRef} className="py-24 bg-gray-900 overflow-hidden scroll-mt-30">
+    <section id="contact" ref={sectionRef} className="py-14 bg-gray-900 overflow-hidden scroll-mt-30">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
             <AnimateOnScroll className="text-center mb-16">
                 <h2 className="font-display text-4xl md:text-5xl font-bold text-white">Get In <span className="text-amber-500">Touch</span></h2>
