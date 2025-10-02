@@ -5,22 +5,23 @@ import { TypeAnimation } from 'react-type-animation';
 
 
 const offers = [
-    {
-        title: "First 50 Customers: FREE Snack with Any Main!",
-        description: "Be one of the first 50 customers of the day and get a FREE Veg Samosa or Gobi 65 (mini) with the purchase of any Dosa, Frankie, or Fried Rice/Noodles!",
-        image: "1.png",
-    },
-    {
-        title: "Double Delight: Buy 1 Get 1 HALF OFF on ALL Tiffins!",
-        description: "Bring a friend or treat yourself! Purchase any Tiffin (Idli, Dosa, Uttapam) and get the second one (of equal or lesser value) at 50% off.",
-        image: "2.png",
-    },
-    {
-        title: "Future Flavor Card: Get 10% Off Your Next Visit!",
-        description: "Make a purchase during our launch week and receive a 'Future Flavor Card' for 10% off your next order, valid for one month!",
-        image: "3.png",
-    }
+  {
+    title: "First 50 Customers: FREE Snack with Any Main!",
+    description: "Be one of the first 50 customers of the day and get a FREE Veg Samosa or Gobi 65 (mini) with the purchase of any Dosa, Frankie, or Fried Rice/Noodles!",
+    image: `https://res.cloudinary.com/${import.meta.env.VITE_CLOUDINARY_CLOUD_NAME}/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,w_415,h_415/v1759399237/1_n1krj5.png`,
+  },
+  {
+    title: "Double Delight: Buy 1 Get 1 HALF OFF on ALL Tiffins!",
+    description: "Bring a friend or treat yourself! Purchase any Tiffin (Idli, Dosa, Uttapam) and get the second one (of equal or lesser value) at 50% off.",
+    image: `https://res.cloudinary.com/${import.meta.env.VITE_CLOUDINARY_CLOUD_NAME}/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,w_415,h_415/v1759399236/2_gqoedd.png`,
+  },
+  {
+    title: "Future Flavor Card: Get 10% Off Your Next Visit!",
+    description: "Make a purchase during our launch week and receive a 'Future Flavor Card' for 10% off your next order, valid for one month!",
+    image: `https://res.cloudinary.com/${import.meta.env.VITE_CLOUDINARY_CLOUD_NAME}/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,w_415,h_415/v1759399241/3_bi9cwz.png`,
+  }
 ];
+
 
 const Hero = React.forwardRef((props, ref) => {
     const [currentSlide, setCurrentSlide] = useState(0);

@@ -6,11 +6,19 @@ const About = ({ sectionRef }) => (
     <section id="about" ref={sectionRef} className="py-24 bg-gray-900 overflow-hidden scroll-mt-30">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid md:grid-cols-2 gap-12 items-center">
-                 <AnimateOnScroll>
-                    <LazyImage 
-                        src="d.png" 
-                        alt="Dallaspuram Food Truck"
-                        wrapperClassName="aspect-[5/6]"
+                <AnimateOnScroll>
+                    <LazyImage
+                        src="https://res.cloudinary.com/dic4irwzb/image/upload/f_auto,q_auto:eco,c_fit/v1759399237/logo_fuftwz.png"
+                        srcset="
+    https://res.cloudinary.com/dic4irwzb/image/upload/f_auto,q_auto:eco,c_fit,w_150/v1759399237/logo_fuftwz.png 150w,
+    https://res.cloudinary.com/dic4irwzb/image/upload/f_auto,q_auto:eco,c_fit,w_300/v1759399237/logo_fuftwz.png 300w,
+    https://res.cloudinary.com/dic4irwzb/image/upload/f_auto,q_auto:eco,c_fit,w_450/v1759399237/logo_fuftwz.png 450w
+  "
+                        sizes="150px"
+                        alt="Dallaspuram"
+                        width="150" height="150"
+                        decoding="async"
+                        fetchpriority="high"
                     />
                 </AnimateOnScroll>
                 <AnimateOnScroll>
